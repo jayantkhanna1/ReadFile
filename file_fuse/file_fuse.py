@@ -5,10 +5,11 @@ from pypdf import PdfReader
 from bs4 import BeautifulSoup
 from pptx import Presentation
 import codecs
+import os
 
 class FileFuse:
     def read(file_name):
-        if not Helper.file_exists():
+        if not Helper.file_exists(file_name):
            raise Exception("File Not Found")
         if len(file_name.split('.')) <=1 :
             raise Exception("File Extension not Found")
