@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 from pptx import Presentation
 import codecs
 
-class ReadFile:
+class FileFuse:
     def read(file_name):
         if not Helper.file_exists():
            raise Exception("File Not Found")
