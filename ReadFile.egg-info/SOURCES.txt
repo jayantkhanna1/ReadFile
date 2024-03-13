@@ -1,0 +1,9 @@
+LICENSE
+pyproject.toml
+setup.cfg
+ReadFile.egg-info/PKG-INFO
+ReadFile.egg-info/SOURCES.txt
+ReadFile.egg-info/dependency_links.txt
+ReadFile.egg-info/top_level.txt
+read_file/__init__.py
+read_file/read_file.py
